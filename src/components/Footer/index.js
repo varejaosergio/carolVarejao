@@ -12,11 +12,10 @@ function Footer() {
       <p>
         <a href="https://www.linkedin.com/in/sergio-s-varejao-frontend/">
         Created by Sérgio Varejão 
-        </a>        
-        {' '}
-        <a href="https://www.instagram.com/carolvarejao/">
-          Copyright Carol Varejão
-        </a>
+        </a>  
+      </p>
+      <p>                
+        Copyright Carol Varejão        
       </p>
     </FooterBase>
   );
