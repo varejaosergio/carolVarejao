@@ -3,24 +3,22 @@ import { TextField, Button, Switch, FormControlLabel } from "@material-ui/core";
 
 function Form() {
   const [nome, setNome] = useState("");
-  const [sobrenome, setSobrenome] = useState("");
+  const [email, setEmail] = useState("");
+  //const [telefone, setTelefone] = useState("");
+  const [promocoes, setPromocoes] = useState(true);
+  const [novidades, setNovidades] = useState(true);
 
   return (
     <form
       onSubmit={(event) => {
         event.preventDefault();
-        console.log(nome, sobrenome);
+        console.log(nome, email);
       }}
     >
       <TextField
         value={nome}
         onChange={(event) => {
-          let tmpNome = event.target.value;
-          if (tmpNome.length >= 30) {
-            tmpNome = tmpNome.substr(0, 30);
-          }
-
-          setNome(tmpNome);
+          setNome(event.target.value);
         }}
         id="nome"
         label="Nome"
@@ -29,32 +27,29 @@ function Form() {
         fullWidth
       />
       <TextField
-        value={sobrenome}
+        value={email}
         onChange={(event) => {
-          setSobrenome(event.target.value);
+          setEmail(event.target.value);
         }}
-        id="sobrenome"
-        label="Sobrenome"
+        id="Email"
+        label="Seu melhor e-mail"
         variant="outlined"
         margin="normal"
         fullWidth
       />
-      <TextField
-        id="CPF"
-        label="CPF"
-        variant="outlined"
-        margin="normal"
-        fullWidth
-      />
-
+      
       <FormControlLabel
         label="Promoções"
-        control={<Switch name="promocoes" defaultChecked color="primary" />}
+        control={<Switch onChange={(event) => {
+            setPromocoes(event.target.checked)
+        }} name="promocoes" defaultChecked={promocoes} color="primary" />}
       />
 
       <FormControlLabel
         label="Novidades"
-        control={<Switch name="promocoes" defaultChecked color="primary" />}
+        control={<Switch onChange={(event) => {
+            setNovidades(event.target.checked)
+        }} name="novidades" defaultChecked={novidades} color="primary" />}
       />
 
       <Button type="submit" variant="contained" color="primary">
