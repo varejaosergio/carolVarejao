@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { TextField, Button, Switch, FormControlLabel } from "@material-ui/core";
 
+
+
+
 function Form({onSubmit}) {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   //const [telefone, setTelefone] = useState("");
   const [promocoes, setPromocoes] = useState(true);
-  const [novidades, setNovidades] = useState(true);
+  const [novidades, setNovidades] = useState(true);  
 
   return (
     <form
@@ -31,6 +34,8 @@ function Form({onSubmit}) {
         onChange={(event) => {
           setEmail(event.target.value);
         }}
+
+        helperText="Exemplo de e-mail: sv@carolvarejao.com"
         id="Email"
         label="Seu melhor e-mail"
         variant="outlined"

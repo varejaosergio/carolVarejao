@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <PageDefault>
         
-        <Container>
+        <Container component="article" maxWidth="sm">
           <Form onSubmit={onSubmitForm} />
         </Container>
               
