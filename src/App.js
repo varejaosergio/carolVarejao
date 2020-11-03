@@ -9,12 +9,16 @@ class App extends Component {
       <PageDefault>
         
         <Container>
-          <Form/>
+          <Form onSubmit={onSubmitForm} />
         </Container>
               
       </PageDefault>
     );
   }
+}
+
+function onSubmitForm(data){
+  console.log(data);
 }
 
 export default App;

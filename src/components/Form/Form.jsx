@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { TextField, Button, Switch, FormControlLabel } from "@material-ui/core";
 
-function Form() {
+function Form({onSubmit}) {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   //const [telefone, setTelefone] = useState("");
@@ -12,7 +12,7 @@ function Form() {
     <form
       onSubmit={(event) => {
         event.preventDefault();
-        console.log({nome, email, promocoes, novidades});
+        onSubmit({nome, email, promocoes, novidades});
       }}
     >
       <TextField
