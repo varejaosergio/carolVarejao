@@ -12,7 +12,7 @@ function Form() {
     <form
       onSubmit={(event) => {
         event.preventDefault();
-        console.log(nome, email);
+        console.log({nome, email, promocoes, novidades});
       }}
     >
       <TextField
@@ -37,19 +37,33 @@ function Form() {
         margin="normal"
         fullWidth
       />
-      
+
       <FormControlLabel
         label="Promoções"
-        control={<Switch onChange={(event) => {
-            setPromocoes(event.target.checked)
-        }} name="promocoes" defaultChecked={promocoes} color="primary" />}
+        control={
+          <Switch
+            checked={promocoes}
+            onChange={(event) => {
+              setPromocoes(event.target.checked);
+            }}
+            name="promocoes"            
+            color="primary"
+          />
+        }
       />
 
       <FormControlLabel
         label="Novidades"
-        control={<Switch onChange={(event) => {
-            setNovidades(event.target.checked)
-        }} name="novidades" defaultChecked={novidades} color="primary" />}
+        control={
+          <Switch
+            checked={novidades}
+            onChange={(event) => {
+              setNovidades(event.target.checked);
+            }}
+            name="novidades"            
+            color="primary"
+          />
+        }
       />
 
       <Button type="submit" variant="contained" color="primary">
