@@ -1,17 +1,41 @@
 {
     "categorias": [
       {
-        "titulo": "Meus Vídeos",
+        "titulo": "Vídeos",
         "link": "https://www.youtube.com/channel/UC60uQKM3qu3GmYqIbEdqcQw",
-        "cor": "#6BD1FF",
+        "cor": "#2A7AE4",
         "link_extra": {
-          "text": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
+          "text": "Você Marca Pessoal",
           "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
         },
         "videos": [
           {
             "titulo": "3 Razões para você investir na sua MARCA PESSOAL",
             "url": "https://www.youtube.com/watch?v=NJf_8i-EPo8&feature=youtu.be"
+          },
+          {
+            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
+            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
+          },
+          {
+            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
+            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
+          },
+          {
+            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
+            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
+          },
+          {
+            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
+            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
+          },
+          {
+            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
+            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
+          },
+          {
+            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
+            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
           },
           {
             "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
