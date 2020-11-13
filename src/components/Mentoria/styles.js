@@ -40,11 +40,10 @@ export const MentoriaBase = styled.body`
     font-style: italic;
   }
 
-  .profile-foto {
+  .foto-left {
     width: 200px;
     float: left;
     margin: 0 20px 20px 0;
-    box-shadow: 10px 10px 10px 0 #000000;
-    border-radius: 50%;
+    box-shadow: 10px 10px 10px 0 #000000;    
   }
 `;

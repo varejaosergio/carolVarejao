@@ -8,25 +8,9 @@ function Mentoria() {
     <MentoriaBase>
       <h3 className="titulo-principal">Mentoria</h3>
 
-      <div className="principal-conteudo">
-        <img className="foto-right" src={Banner} alt="Banner" />
-        <p>
-          
-        </p>
+      <div className="principal-conteudo">      
 
-        <p>
-          
-        </p>
-
-        <p>
-          
-        </p>
-
-        <p className="texto-centro">
-          
-        </p>
-
-        <img className="profile-foto" src={Foto} alt="Minha foto." />
+        <img className="foto-left" src={Foto} alt="Minha foto." />
         <br />
         
         <p className="texto-centro">
@@ -42,6 +26,22 @@ function Mentoria() {
           
         </p>
         <br/>
+        <p className="texto-centro">
+          
+        </p>
+        <img className="foto-right" src={Banner} alt="Banner" />
+        <p>
+          
+        </p>
+
+        <p>
+          
+        </p>
+
+        <p>
+          
+        </p>
+
         <p className="texto-centro">
           
         </p>

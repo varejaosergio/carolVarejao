@@ -2,10 +2,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
   }
-  
-  :root {
+ 
+  :root { 
+    background: linear-gradient(#000000, #FFFFFF);  
     --primary: #2A7AE4;
-    --black: #e0d1c6;
+    /*--black: #2f3031;*/
     --blackLighter: #9E9E9E;
     --grayLight: #F5F5F5;
     --grayMedium: #e5e5e5; 
