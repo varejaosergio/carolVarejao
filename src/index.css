@@ -5,8 +5,8 @@
  
   :root { 
     background: linear-gradient(#000000, #FFFFFF);  
-    --primary: #2A7AE4;
-    /*--black: #2f3031;*/
+    /* SSV-11/13/2020 --primary: #2A7AE4;*/
+    /* SSV-11/13/2020 --black: #2f3031;*/
     --blackLighter: #9E9E9E;
     --grayLight: #F5F5F5;
     --grayMedium: #e5e5e5; 
