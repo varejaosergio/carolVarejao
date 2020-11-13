@@ -5,8 +5,9 @@ import BannerMain from "./components/BannerMain";
 import About from "./components/About";
 import Carousel from "./components/Carousel";
 
-import { Container } from "@material-ui/core";
+import { Container, Typography } from "@material-ui/core";
 import Form from "./components/Form/Form";
+import Mentoria from "./components/Mentoria";
 
 function App() {
   return (
@@ -22,7 +23,10 @@ function App() {
         category={dadosIniciais.categorias[0]} 
       />
 
+      <Mentoria/>
+
       <Container component="article" maxWidth="sm">
+        <Typography variant="h3" component="h1" align="center" color="primary">Formulário de cadastro</Typography>
         <Form onSubmit={onSubmitForm} />
       </Container>
     </PageDefault>

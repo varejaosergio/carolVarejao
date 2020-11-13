@@ -18,10 +18,11 @@
   body {
     margin: 0;
     padding: 0;
+    color: black;
   }
   
   a {
-    color: inherit;
+    color: black;
   } 
   
   #root {
@@ -36,11 +37,15 @@
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;    
   }
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
+  }
+
+  .MuiFormControlLabel-label {
+    color: var(--primary)
   }
   

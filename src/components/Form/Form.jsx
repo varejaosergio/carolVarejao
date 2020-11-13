@@ -44,7 +44,7 @@ function Form({onSubmit}) {
       />
 
       <FormControlLabel
-        label="Promoções"
+        label="Promoções"            
         control={
           <Switch
             checked={promocoes}
