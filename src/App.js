@@ -26,7 +26,7 @@ function App() {
       <Mentoria/>
 
       <Container component="article" maxWidth="sm">
-        <Typography variant="h3" component="h1" align="center" color="primary">Formulário de cadastro</Typography>
+        <Typography variant="h3" component="h1" align="center" color="textPrimary">Formulário de cadastro</Typography>
         <Form onSubmit={onSubmitForm} />
       </Container>
     </PageDefault>
