@@ -49,4 +49,8 @@
   .MuiFormControlLabel-label {
     color: black;
   }
+
+  .Form {
+    margin-bottom: 1em;
+  }
   

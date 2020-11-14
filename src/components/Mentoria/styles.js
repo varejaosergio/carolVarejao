@@ -27,6 +27,12 @@ export const MentoriaBase = styled.body`
     line-height: 2;
 
   }
+  .texto-centro-font-title {
+    text-align: center;
+    line-height: 2;
+    font-size: 2em;
+
+  }
 
   .principal p {
     margin: 0 0 1em;
@@ -41,9 +47,17 @@ export const MentoriaBase = styled.body`
   }
 
   .foto-left {
-    width: 200px;
+    width: 400px;
     float: left;
     margin: 0 20px 20px 0;
+    box-shadow: 10px 10px 10px 0 #000000;        
+  }
+  .marca {
+    width: 200px;
+    float: left;   
     box-shadow: 10px 10px 10px 0 #000000;    
+  }
+  .texto-chamada {
+    font-size: 2em;
   }
 `;

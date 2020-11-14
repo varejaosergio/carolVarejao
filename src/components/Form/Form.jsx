@@ -12,7 +12,7 @@ function Form({onSubmit}) {
   const [novidades, setNovidades] = useState(true);  
 
   return (
-    <form
+    <form className="Form"
       onSubmit={(event) => {
         event.preventDefault();
         onSubmit({nome, email, promocoes, novidades});
@@ -74,7 +74,7 @@ function Form({onSubmit}) {
       <Button type="submit" variant="contained" color="primary">
         Cadastrar
       </Button>
-    </form>
+    </form >
   );
 }
 
