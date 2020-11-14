@@ -61,20 +61,25 @@ function Mentoria() {
         </p>
         <p>
           <em>
-            Vamos encontrar o seu proósito e entender o porque você faz o que
+            Vamos encontrar o seu propósito e entender o porque você faz o que
             você faz. Qual é o seu maior objetivo?
           </em>
         </p>
 
         <img className="marca" src={VcMarca} alt="Logo Você Marca." />
         <p className="texto-chamada">
-          Chegou a sua vez de <strong>Destacar Sua Marca </strong>no Mundo!!!!!!
+          Chegou a sua vez de <strong>Destacar Sua Marca </strong>no Mundo!
         </p>
 
-        <p></p>
+        <p className="texto-chamada">
+          Vou te contar como funciona a<strong> Mentoria Você Marca</strong> e
+          tudo oque você receberá ao ingressar!
+        </p>
 
-        <p></p>
-
+        <p className="texto-chamada">
+          Faça o seu cadastro abaixo que explico tudo sobre a
+          <strong> Mentoria Você Marca!</strong>
+        </p>
         <p className="texto-centro"></p>
       </div>
     </MentoriaBase>

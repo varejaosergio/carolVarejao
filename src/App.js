@@ -18,15 +18,19 @@ function App() {
         videoDescription="Mentora Carol Varejão 'Você Marca!'"
       />
       <About />
-      <Carousel 
-        
-        category={dadosIniciais.categorias[0]} 
-      />
+      <Carousel category={dadosIniciais.categorias[0]} />
 
-      <Mentoria/>
+      <Mentoria />
 
       <Container component="article" maxWidth="sm">
-        <Typography variant="h3" component="h1" align="center" color="textPrimary">Formulário de cadastro</Typography>
+        <Typography
+          variant="h3"
+          component="h1"
+          align="center"
+          color="textPrimary"
+        >
+          MENTORIA VOCÊ MARCA!
+        </Typography>
         <Form onSubmit={onSubmitForm} />
       </Container>
     </PageDefault>
