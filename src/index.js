@@ -10,9 +10,6 @@ import Home from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 
-
-
-
 ReactDOM.render(
   /* SSV implementação SPA, sai esse config <React.StrictMode>
     <App />
@@ -25,7 +22,7 @@ ReactDOM.render(
       <Route component={() => (<div>Página 404</div>)} />
      </Switch>
   </BrowserRouter>,  
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function

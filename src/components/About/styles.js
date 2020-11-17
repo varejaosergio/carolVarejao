@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AboutBase = styled.body`
   line-height: 1.5;

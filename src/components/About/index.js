@@ -1,8 +1,20 @@
-import React from "react";
-import { AboutBase } from "./styles";
-import Banner from "../../assets/corpo inteiro.jpeg";
-import Foto from "../../assets/profile.jpeg";
+import React from 'react';
+import { AboutBase } from './styles';
+import Banner from '../../assets/corpo inteiro.jpeg';
+import Foto from '../../assets/profile.jpeg';
+/*  eslint "require-jsdoc": ["error", {
+    "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true,
+        "ArrowFunctionExpression": true,
+        "FunctionExpression": true
+    }
+}]*/
 
+/**
+ * It returns jsx
+ */
 function About() {
   return (
     <AboutBase>
@@ -11,8 +23,14 @@ function About() {
       <div className="principal-conteudo">
         <img className="foto-right" src={Banner} alt="Banner" />
         <p>
-          <strong>Muito Prazer!</strong> Sou apaixonada pelo que faço e quero te
-          ajudar a desenvolver sua <strong>Marca Pessoal.</strong>
+          <strong>
+            Muito Prazer!
+          </strong>
+          Sou apaixonada pelo que faço e quero te
+          ajudar a desenvolver sua
+          <strong>
+            Marca Pessoal.
+          </strong>
         </p>
 
         <p>
@@ -20,10 +38,9 @@ function About() {
             Antes de explicar o meu trabalho aqui estão alguns detalhes sobre
             mim:
             <strong>
-              {" "}
               Graduada pela UVV-ES em Marketing, Pós graduada com MBA em Gestão
               Empresarial pela FGV, diretora de relacionamento e marketing na
-              empresa Oficina Renova. "Minha empresa, meu orgulho!"
+              empresa Oficina Renova. Minha empresa, meu orgulho!
             </strong>
           </em>
         </p>
@@ -32,7 +49,6 @@ function About() {
           Desenvolvemos nossa empresa com base nas melhores praticas de gestão.
           <em>
             <strong>
-              {" "}
               Muito orgulho de fazer parte de uma gestão premiada Estadual e
               Nacionalmente. Vencemos o prêmio MPE - Brasil em 2016.
             </strong>
@@ -42,9 +58,9 @@ function About() {
         <p className="texto-centro">
           <em>
             <strong>
-              "Acreditar em você e no seu potencial é a chave para você começar
+              Acreditar em você e no seu potencial é a chave para você começar
               a colocar seus sonhos em prática! Não existe mágica, existe
-              persistência e coragem". Do que não abro mão: Desafios,
+              persistência e coragem. Do que não abro mão: Desafios,
               comunicação, felicidade, autenticidade, criatividade e crescimento
               contínuo.
             </strong>
@@ -67,22 +83,29 @@ function About() {
           empreender! Muito prazer, Carol: mãe, mulher, humana. Hoje, ajudo
           mulheres a serem destaque através da sua marca pessoal.
           <em>
-            <strong> "Transformar pessoas através das suas histórias".</strong>
+            <strong>
+              Transformar pessoas através das suas histórias.
+            </strong>
           </em>
         </p>
         <br />
 
         <p>
-          <strong>Missão: </strong> Ajudo mulheres a serem destaque através da
+          <strong>
+            Missão:
+          </strong>
+          Ajudo mulheres a serem destaque através da
           sua marca pessoal.
         </p>
 
         <p>
-          <strong>Visão: </strong>
+          <strong>
+            Visão:
+          </strong>
           Ter liberdade financeira através do marketing digital, tendo
           relevância e reconhecimento nesse segmento.
         </p>
-        <br/>
+        <br />
         <p className="texto-centro">
           <strong>
             <em>
