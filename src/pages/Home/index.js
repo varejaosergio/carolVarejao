@@ -1,11 +1,12 @@
 import React from "react";
+import { Container, Typography } from "@material-ui/core";
 import PageDefault from "../../components/PageDefault";
 import dadosIniciais from "../../data/dados_iniciais.json";
 import BannerMain from "../../components/BannerMain";
 import About from "../../components/About";
 import Carousel from "../../components/Carousel";
 
-import { Container, Typography } from "@material-ui/core";
+
 import Form from "../../components/Form/Form";
 import Mentoria from "../../components/Mentoria";
 
