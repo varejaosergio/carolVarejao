@@ -24,12 +24,12 @@ function About() {
         <img className="foto-right" src={Banner} alt="Banner" />
         <p>
           <strong>
-            Muito Prazer!
+            Muito Prazer! 
           </strong>
-          Sou apaixonada pelo que faço e quero te
-          ajudar a desenvolver sua
+          {" "}Sou apaixonada pelo que faço e quero te
+          ajudar a desenvolver sua 
           <strong>
-            Marca Pessoal.
+          {" "}Marca Pessoal.
           </strong>
         </p>
 
@@ -38,7 +38,7 @@ function About() {
             Antes de explicar o meu trabalho aqui estão alguns detalhes sobre
             mim:
             <strong>
-              Graduada pela UVV-ES em Marketing, Pós graduada com MBA em Gestão
+              {" "}Graduada pela UVV-ES em Marketing, Pós graduada com MBA em Gestão
               Empresarial pela FGV, diretora de relacionamento e marketing na
               empresa Oficina Renova. Minha empresa, meu orgulho!
             </strong>

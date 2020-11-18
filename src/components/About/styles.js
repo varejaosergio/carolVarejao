@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const AboutBase = styled.body`
   line-height: 1.5;
   padding: 3em 0;
-  color: black;
+  color: #ffffff;
 
   .titulo-principal {
     text-align: center;
