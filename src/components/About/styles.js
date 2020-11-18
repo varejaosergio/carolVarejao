@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const AboutBase = styled.body`
   line-height: 1.5;
+  margin-left: 30px;
+  margin-right: 30px;
   padding: 3em 0;
   color: #ffffff;
 

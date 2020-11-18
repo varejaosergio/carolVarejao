@@ -59,7 +59,7 @@ function Home() {
 
       <Container component="article" maxWidth="sm">
         <Typography
-          variant="h3"
+          variant="h4"
           component="h1"
           align="center"
           color="textPrimary"

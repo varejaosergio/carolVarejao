@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const MentoriaBase = styled.body`
   line-height: 1.5;
+  margin-left: 30px;
+  margin-right: 30px;
   padding: 3em 0;
   color: black;
 
@@ -59,6 +61,6 @@ export const MentoriaBase = styled.body`
     margin-right: 30px;   
   }
   .texto-chamada {
-    font-size: 2em;    
+    font-size: 1.5em;    
   }
 `;
