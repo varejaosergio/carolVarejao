@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Typography } from '@material-ui/core';
-import Menu from '../../components/Menu';
-import dadosIniciais from "../../data/dados_iniciais.json";
+import categoriasRepository from '../../repositories/categorias';
+import PageDefault from '../../components/PageDefault';
 import BannerMain from "../../components/BannerMain";
 import About from "../../components/About";
 import Carousel from "../../components/Carousel";
@@ -9,22 +9,51 @@ import Carousel from "../../components/Carousel";
 
 import Form from "../../components/Form/Form";
 import Mentoria from "../../components/Mentoria";
-import Footer from '../../components/Footer';
 
 function Home() {
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+    //const URL = 'https://carolvarejao.herokuapp.com/categorias';
+    //http://localhost:8080/categorias?_embed=videos
+      .then((categoriasComVideos) =>{
+        setDadosIniciais(categoriasComVideos);
+      })
+      .catch((err) =>{
+        console.log(err.message);
+      });    
+  }, []);  
+
   return (    
-    <div /*style={{ background: '#141414' }}*/>
-      <Menu/>
+    <PageDefault paddingAll={0}>    
+      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="Mentora Carol Varejão 'Você Marca!'"
-      />
-
-      <About />
-
-      <Carousel category={dadosIniciais.categorias[0]} />
+      {dadosIniciais.map((categoria, indice) => {
+        if(indice === 0 ){
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[0].videos[0].titulo}
+                url={dadosIniciais[0].videos[0].url}      
+                videoDescription="Mentora Carol Varejão 'Você Marca!'"
+              />
+              <About />
+              <Carousel
+                ignoreFirstVideo
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
+        
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
 
       <Mentoria />
 
@@ -39,8 +68,7 @@ function Home() {
         </Typography>
         <Form onSubmit={onSubmitForm} />
       </Container>
-      <Footer />
-    </div>
+    </PageDefault>
   );
 }
 

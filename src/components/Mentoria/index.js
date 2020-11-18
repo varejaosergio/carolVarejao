@@ -30,7 +30,7 @@ function Mentoria() {
           <em>
             <strong>
               Pessoas não se conectam com MARCAS, se conectam com pessoas. Qual
-              é a sua?
+              é a sua marca?
             </strong>
           </em>
         </p>
