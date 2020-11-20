@@ -10,17 +10,6 @@ import { FooterBase } from "./styles";
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.instagram.com/carolvarejao/">
-        <img className="logoFooter" src={Logo} alt="Logo Carol Varejão" />
-      </a>
-      <p>
-        <a href="https://www.linkedin.com/in/sergio-s-varejao-frontend/">
-          Created by Sérgio Varejão
-        </a>{"   "}
-        <br />
-        <br />
-        Copyright Carol Varejão
-      </p>
       <p className="Icones">
         <a href="https://www.instagram.com/carolvarejao/">
           <img
@@ -54,6 +43,17 @@ function Footer() {
           />
         </a>
       </p>
+      <a href="https://www.instagram.com/carolvarejao/">
+        <img className="logoFooter" src={Logo} alt="Logo Carol Varejão" />
+      </a>
+      <p>
+        <a href="https://www.linkedin.com/in/sergio-s-varejao-frontend/">
+          Created by Sérgio Varejão
+        </a>{"   "}
+        <br />
+        <br />
+        Copyright Carol Varejão
+      </p>      
     </FooterBase>
   );
 }
