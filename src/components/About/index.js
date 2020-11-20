@@ -2,19 +2,7 @@ import React from 'react';
 import { AboutBase } from './styles';
 import Banner from '../../assets/corpo inteiro.jpeg';
 import Foto from '../../assets/profile.jpeg';
-/*  eslint "require-jsdoc": ["error", {
-    "require": {
-        "FunctionDeclaration": true,
-        "MethodDefinition": true,
-        "ClassDeclaration": true,
-        "ArrowFunctionExpression": true,
-        "FunctionExpression": true
-    }
-}]*/
 
-/**
- * It returns jsx
- */
 function About() {
   return (
     <AboutBase>
@@ -109,8 +97,8 @@ function About() {
         <p className="texto-centro">
           <strong>
             <em>
-              “Lute. Acredite. Conquiste. Perca. Deseje. Espere. Alcance.
-              Invada. Caia. Seja tudo que quiser ser, mas acima de tudo, seja
+              “Lute, Acredite, Conquiste, Perca, Deseje, Espere, Alcance,
+              Invada, Caia, Seja tudo que quiser ser, mas acima de tudo, seja
               você. SEMPRE!”
             </em>
           </strong>
