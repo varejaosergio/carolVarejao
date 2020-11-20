@@ -31,8 +31,8 @@ export const SliderItem = styled.li`
   margin-right: 16px;
   img {
     margin: 16px;
-    width: 370px;
-    height: 242px;
+    width: 320px;
+    height: 209px;
     object-fit: cover;
   }
 `;

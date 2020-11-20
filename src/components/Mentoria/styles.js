@@ -49,7 +49,7 @@ export const MentoriaBase = styled.body`
   }
 
   .foto-left {
-    width: 400px;
+    width: 320px;
     float: left;
     margin: 0 20px 20px 0;
     box-shadow: 10px 10px 10px 0 #000000;        
