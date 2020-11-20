@@ -1,47 +1,39 @@
 {
-    "categorias": [
-      {
-        "titulo": "Vídeos",
-        "link": "https://www.youtube.com/channel/UC60uQKM3qu3GmYqIbEdqcQw",
-        "cor": "#3f51b5",
-        "link_extra": {
-          "text": "Você Marca Pessoal",
-          "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
-        },
-        "videos": [
-          {
-            "titulo": "3 Razões para você investir na sua MARCA PESSOAL",
-            "url": "https://www.youtube.com/watch?v=NJf_8i-EPo8&feature=youtu.be"
-          },
-          {
-            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
-            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
-          },
-          {
-            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
-            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
-          },
-          {
-            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
-            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
-          },
-          {
-            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
-            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
-          },
-          {
-            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
-            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
-          },
-          {
-            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
-            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
-          },
-          {
-            "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
-            "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
-          }                  
-        ]
-      }      
-    ]
+  "categorias": [
+    {
+      "titulo": "Dicas",
+      "link": "https://www.youtube.com/channel/UC60uQKM3qu3GmYqIbEdqcQw",
+      "cor": "#3f51b5",
+      "link_extra": {
+        "text": "Você Marca Pessoal",
+        "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "titulo": "3 Razões para você investir na sua MARCA PESSOAL",
+      "url": "https://www.youtube.com/watch?v=NJf_8i-EPo8&feature=youtu.be"
+    },
+    {
+      "titulo": "3 Técnicas para Posicionamento da Sua Marca Pessoal",
+      "url": "https://www.youtube.com/watch?v=gonT4lZjpO4&feature=youtu.be"
+    },
+    {
+      "titulo": "Como COMEÇAR DO ZERO no Marketing Digital em 2020 | Marketing Digital para iniciantes",
+      "url": "https://www.youtube.com/watch?v=TBGoWhOCaLw"
+    },    
+    {
+      "titulo": "O MAIOR VENDEDOR da Hotmart: o que Mairo Vergara fez para virar Top 1 | FIRE FESTIVAL 2018",
+      "url": "https://www.youtube.com/watch?v=WgPh7l7lcCA&t=72s"
+    },
+    {
+      "titulo": "A ARTE DE CRIAR VÍDEOS QUE VENDEM SEM VENDER | POWERCLASS | ERICO ROCHA",
+      "url": "https://www.youtube.com/watch?v=Lu0X90Z2R8E"
+    },
+    {
+      "titulo": "Day 1 | O Poder do 'Nós' - Flávio Augusto [WiseUp]",
+      "url": "https://www.youtube.com/watch?v=bcio6QiQK4w"
+    }                  
+  ]       
 }
