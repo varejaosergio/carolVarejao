@@ -46,7 +46,13 @@
       "categoriaId": 1,
       "titulo": "Day1 | Luciano Huck conta sua história empreendedora",
       "url": "https://www.youtube.com/watch?v=VSzJBDpK7XU"
-    }                  
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Day1 | Robinson Shiba: superação e perseverança",
+      "url": "https://www.youtube.com/watch?v=POAfq1FyFBM"
+    }                
   ]
 }      
     
