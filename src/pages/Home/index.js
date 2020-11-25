@@ -34,8 +34,8 @@ function Home() {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
-                url={dadosIniciais[0].videos[0].url}      
+                videoTitle={categoria.videos[0].titulo}
+                url={categoria.videos[0].url}      
                 videoDescription="#VoceMarcaPessoal"
               />
               <About />
