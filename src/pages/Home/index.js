@@ -1,47 +1,33 @@
-import React, { useEffect, useState } from 'react';
+import React /* SSV 11 25 2020 { useEffect, useState }*/ from 'react';
 import { Container, Typography } from '@material-ui/core';
-import categoriasRepository from '../../repositories/categorias';
+/* não precisa mais SSV 11 25 2020 import categoriasRepository from '../../repositories/categorias';*/
 import PageDefault from '../../components/PageDefault';
 import BannerMain from "../../components/BannerMain";
 import About from "../../components/About";
 import Carousel from "../../components/Carousel";
-
+import data from '../../data/dados_iniciais.json';
 
 import Form from "../../components/Form/Form";
 import Mentoria from "../../components/Mentoria";
 
-function Home() {
-  const [dadosIniciais, setDadosIniciais] = useState([]);
-
-  useEffect(() => {
-    categoriasRepository.getAllWithVideos()
-    //const URL = 'https://carolvarejao.herokuapp.com/categorias';
-    //http://localhost:8080/categorias?_embed=videos
-      .then((categoriasComVideos) =>{
-        setDadosIniciais(categoriasComVideos);
-      })
-      .catch((err) =>{
-        console.log(err.message);
-      });    
-  }, []);  
+function Home() {  
 
   return (    
     <PageDefault paddingAll={0}>    
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
-
-      {dadosIniciais.map((categoria, indice) => {
+      {data.categorias.map((categoria, indice) => {
         if(indice === 0 ){
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={categoria.videos[0].titulo}
-                url={categoria.videos[0].url}      
+                videoTitle={data.videos[0].titulo}
+                url={data.videos[0].url}      
                 videoDescription="#VoceMarcaPessoal"
               />
               <About />
               <Carousel
                 ignoreFirstVideo
-                category={dadosIniciais[0]}
+                category={data.categorias[0]}
+                videos={data.videos}
               />
             </div>
           );

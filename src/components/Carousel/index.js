@@ -6,11 +6,12 @@ import Slider, { SliderItem } from './components/Slider';
 function Carousel({
   ignoreFirstVideo,
   category,
+  videos,
 }) {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
-  const videos = category.videos;
+  const categoryVideos = videos;
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -26,7 +27,7 @@ function Carousel({
         </>
       )}
       <Slider>
-        {videos.map((video, index) => {
+        {categoryVideos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;
           }
