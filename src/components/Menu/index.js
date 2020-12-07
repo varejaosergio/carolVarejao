@@ -11,11 +11,7 @@ function Menu() {
       <BrowserRouter>
         <Link to="/">
           <img className="Logo" src={Logo} alt="Carol Varejão Logo" />
-        </Link>        
-
-        <Button as={Link} className="ButtonLink" to="/cadastro/video">
-          Novo vídeo
-        </Button>
+        </Link>       
       </BrowserRouter>
     </nav>
   );
